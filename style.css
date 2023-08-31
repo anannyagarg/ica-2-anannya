@@ -1,0 +1,38 @@
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+#quoteDisplay {
+    display: block;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    font-family:cursive;
+}
+body {
+    text-align: center;
+    background-color: newColor;
+}
+button {
+    background-color: aliceblue;
+}
+#ctr{
+    background-color: antiquewhite;
+}
+
+.quoteBox{
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    content: "";
+    align-items: center;
+    margin: auto;
+    background-color: #fff;
+    width: 95%;
+    height: 20%;
+    z-index: -5;
+    border-radius: 20px;
+}
